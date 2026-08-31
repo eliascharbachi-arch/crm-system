@@ -175,5 +175,6 @@ export const sv = {
     export: 'Exportera',
     import: 'Importera',
     close: 'Stäng',
+    cancel: 'Avbryt',
   },
 }

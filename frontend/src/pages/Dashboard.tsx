@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { reportsAPI, dealsAPI } from '../api/services'
+import { reportsAPI } from '../api/services'
 import { sv } from '../localization/sv'
 
 export default function Dashboard() {
