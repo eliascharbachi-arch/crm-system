@@ -3,7 +3,7 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install
 COPY . .
-RUN npm run build
+RUN VITE_API_BASE=https://crm-system-production-fc82.up.railway.app/api npm run build
 
 FROM node:24-slim
 WORKDIR /app
